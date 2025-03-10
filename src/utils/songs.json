@@ -1,0 +1,190 @@
+{
+    "DondeFlorezco": {
+        "title": "Donde Florezco",
+        "comment": "",
+        "linkPath": "/songs/DondeFlorezco",
+        "imgSrc": "./src/assets/img/canciones/Blooming.jpeg",
+        "spotify":"https://open.spotify.com/embed/track/1QHbhwY40PfIWkN1C5DLor?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/4tKdg7RobO0?si=WtzPbtOUCanGX8fl",
+        "lyrics": [
+            ["Estoy buscando mi destino", "Me siento a salvo del ardor", "La euforia estalla y deja ruidos", "Que no están, que no son"],
+            ["Hoy quiero hablarte sin motivos", "Quiero contarte lo que soy", "Volverme trigo en tu trigo", "Perder lo que te perdió"],
+            ["Mientras acomodo mis reflejos", "Giran los besos", "Ya no encuentro días grises", "Entre mis versos"],
+            ["Hoy la distancia me apuñala", "No sé lo que vendrá", "Me desangro en esta lúgubre pasión", "De sentirte y no tenerte", "Conmigo"],
+            ["Te robas mi silencio", "Y mis palabras", "Me pierdo entre tus manos", "Y tu mirada", "Y me calma el canto de tu pecho", "Si el momento es dueño de los dos"],
+            ["Mientras acomodo mis reflejos", "Giran los besos", "Ya no encuentro días grises", "Entre mis versos"],
+            ["Hoy la distancia me apuñala", "No sé lo que vendrá", "Me desangro en esta lúgubre pasión", "De sentirte y no tenerte", "Conmigo"],
+            ["Embriago mis miedos", "Y allí te encuentro", "Donde siempre te quise", "Donde florezco"],
+            ["No hay espera, no hay distancia", "Te veo, aquí estás", "Y me amanso en esta lumbre de pasión", "De sentir al fin tu tiempo", "Junto al mío."]
+        ]
+    },
+    "Liveblooming": {
+        "title": "Donde Florezco",
+        "comment": "(Liveblooming)",
+        "linkPath": "/songs/Liveblooming",
+        "imgSrc": "./src/assets/img/canciones/Liveblooming.jpeg",
+        "spotify": "https://open.spotify.com/embed/track/036A1n2NWsT8to7FWgcpQd?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/967sKHaoS1w?si=Bj2nEk1FSQsIMLvp",
+        "lyrics": [
+            ["Estoy buscando mi destino", "Me siento a salvo del ardor", "La euforia estalla y deja ruidos", "Que no están, que no son"],
+            ["Hoy quiero hablarte sin motivos", "Quiero contarte lo que soy", "Volverme trigo en tu trigo", "Perder lo que te perdió"],
+            ["Mientras acomodo mis reflejos", "Giran los besos", "Ya no encuentro días grises", "Entre mis versos"],
+            ["Hoy la distancia me apuñala", "No sé lo que vendrá", "Me desangro en esta lúgubre pasión", "De sentirte y no tenerte", "Conmigo"],
+            ["Te robas mi silencio", "Y mis palabras", "Me pierdo entre tus manos", "Y tu mirada", "Y me calma el canto de tu pecho", "Si el momento es dueño de los dos"],
+            ["Mientras acomodo mis reflejos", "Giran los besos", "Ya no encuentro días grises", "Entre mis versos"],
+            ["Hoy la distancia me apuñala", "No sé lo que vendrá", "Me desangro en esta lúgubre pasión", "De sentirte y no tenerte", "Conmigo"],
+            ["Embriago mis miedos", "Y allí te encuentro", "Donde siempre te quise", "Donde florezco"],
+            ["No hay espera, no hay distancia", "Te veo, aquí estás", "Y me amanso en esta lumbre de pasión", "De sentir al fin tu tiempo", "Junto al mío."]
+        ]
+    },
+    "Postales": {
+        "title": "Postales",
+        "comment": "",
+        "linkPath": "/songs/Postales",
+        "imgSrc": "./src/assets/img/canciones/Postales.jpeg",
+        "spotify": "https://open.spotify.com/embed/track/6PUrmiikUEpMdL8Q4YJuNx?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/fYKFWpZVnuI?si=epazY_XZ04b08Z7U",
+        "lyrics": [
+            ["¿A dónde vas,", "cuando las luces ya no brillan?"],
+            ["¿No serán", "postales de otras vidas?"],
+            ["Son sombras que iluminan"],
+            ["Que tu ausencia me bendiga"],
+            ["Que duela hasta endurecer"],
+            ["Hoy no quiero crecer"],
+            ["No hay más de mí"],
+            ["Las luces que no brillan", "Postales de mi vida"]
+        ]
+    },
+    "RegaloAcustico": {
+        "title": "Regalo",
+        "comment": "(Acústico ft. Lara Cass)",
+        "linkPath": "/songs/RegaloAcustico",
+        "imgSrc": "./src/assets/img/canciones/RegaloAcustico.jpeg",
+        "spotify": "https://open.spotify.com/embed/track/5yFmhzqPGLQfAlvAAuDfh5?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/7vYjxhl94wA?si=j3KvQgPQSUJPK6x7",
+        "lyrics": [
+            ["Es una señal", "Vestigios de vidas pasadas", "Quiero una canción", "Para volver a empezar"],
+            ["Cansado de estar", "Corriendo hacia ninguna parte", "Dame una razón", "Para no pensar"],
+            ["Y aunque sé que no te gusta improvisar", "Se me ocurre que podríamos probar..."],
+            ["Escapemos de todo", "Hagamos un refugio", "Donde no quede nada", "Más de lo que escapar"],
+            ["Dejemos los modos", "Vámonos lejos", "Si de todas formas", "Ya no estamos acá"],
+            ["Tiremos la ropa", "Viajemos desnudos", "Que el viento te bese", "Lo que no te besé hoy"],
+            ["Dame un segundo", "Quiero mirarte", "Sentir el regalo", "Que ya no merezco"],
+            ["Me pido perdón", "Lo que siento no es lo que soy", "Tengo tantas cosas", "Y ese es mi valor."],
+            ["El presente nada nos debe, todo nos da", "Es un mar desanudado, lo que vendrá"],
+            ["Escapemos de todo", "Hagamos un refugio", "Donde no quede nada", "Más de lo que escapar"],
+            ["Dejemos los modos", "Vámonos lejos", "Si de todas formas", "Ya no estamos acá"],
+            ["Tiremos la ropa", "Viajemos desnudos", "Que el viento te bese", "Lo que no te besé hoy"],
+            ["Dame un segundo", "Quiero mirarte", "Sentir el regalo", "Que ya no merezco"],
+            ["Dame un segundo", "Quiero mirarte", "Sentir el regalo", "Que ya no merezco"],
+            ["Dame un segundo", "Quiero mirarte", "Sentir el regalo", "Que ya no merezco"],
+            ["Sentir el regalo", "Que ya no merezco"],
+            ["Sentir el regalo"]
+        ]
+    },
+    "Regalo": {
+        "title": "Regalo",
+        "comment": "",
+        "linkPath": "/songs/Regalo",
+        "imgSrc": "./src/assets/img/canciones/Regalo.jpeg",
+        "spotify": "https://open.spotify.com/embed/track/0XbeerloOu6rJAN5NQGBva?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/7vYjxhl94wA?si=j3KvQgPQSUJPK6x7",
+        "lyrics": [
+            ["Es una señal", "Vestigios de vidas pasadas", "Quiero una canción", "Para volver a empezar"],
+            ["Cansado de estar", "Corriendo hacia ninguna parte", "Dame una razón", "Para no pensar"],
+            ["Y aunque sé que no te gusta improvisar", "Se me ocurre que podríamos probar..."],
+            ["Escapemos de todo", "Hagamos un refugio", "Donde no quede nada", "Más de lo que escapar"],
+            ["Dejemos los modos", "Vámonos lejos", "Si de todas formas", "Ya no estamos acá"],
+            ["Tiremos la ropa", "Viajemos desnudos", "Que el viento te bese", "Lo que no te besé hoy"],
+            ["Dame un segundo", "Quiero mirarte", "Sentir el regalo", "Que ya no merezco"],
+            ["Te pido perdón", "Lo que siento es lo que soy", "Tengo tantas cosas", "Me falta valor"],
+            ["El presente nada nos debe, todo nos da", "Es un mar desanudado, lo que vendrá"],
+            ["Escapemos de todo", "Hagamos un refugio", "Donde no quede nada", "Más de lo que escapar"],
+            ["Dejemos los modos", "Vámonos lejos", "Si de todas formas", "Ya no estamos acá"],
+            ["Tiremos la ropa", "Viajemos desnudos", "Que el viento te bese", "Lo que no te besé hoy"],
+            ["Dame un segundo", "Quiero mirarte", "Sentir el regalo", "Que ya no merezco"],
+            ["Dame un segundo", "Quiero mirarte", "Sentir el regalo", "Que ya no merezco"],
+            ["Dame un segundo", "Quiero mirarte", "Sentir el regalo", "Que ya no merezco"],
+            ["Sentir el regalo", "Que ya no merezco"],
+            ["Sentir el regalo"]
+        ]
+    },
+    "VivoEnUnaCancion": {
+        "title": "Vivo En una canción",
+        "comment": "",
+        "linkPath": "/songs/VivoEnUnaCancion",
+        "imgSrc": "./src/assets/img/canciones/Vivo.jpeg",
+        "spotify": "https://open.spotify.com/embed/track/3o9r9LrA4bh3JOFFMDaPyv?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/6_OcgDR2NGE?si=iHUrJc8ztwJGMZjk",
+        "lyrics": [
+            ["Llegó la hora del sermón", "Una vez más, la colisión", "Creí tenerlo todo bajo control", "Pero la fiesta terminó"],
+            ["El mundo busca lo especial", "Yo solo busco una canción", "Que me encuentre", "Cuando me encuentre solo"],
+            ["Y si no tengo a quién llamar", "Si mi tiempo se durmió", "Cuatro versos y un anhelo", "Me darán calor"],
+            ["Yo quiero estar ahí", "Yo quiero estar así", "Yo quiero estar aquí", "Nada más"],
+            ["No quiero explicarlo de nuevo", "No quiero seguir intentando entenderlo", "Creí poder perderlo en un cajón", "Pero la apariencia me engañó"],
+            ["El pasado es un gran impostor"],
+            ["Ya nadie busca lo esencial", "Yo solo busco una canción", "Que me cuente todo lo que fui", "Y lo que soy hoy"],
+            ["Y si no tengo a quién llamar", "Si mi tiempo se acabó", "Quedaré con mi silencio", "Con este dolor"],
+            ["Yo quiero estar ahí", "Yo quiero estar así", "Yo quiero estar aquí", "Nada más"],
+            ["Quiero estar ahí", "Quiero estar así", "Yo quiero estar aquí", "Nada más"],
+            ["Porque vivo en una canción", "Solo vivo en una canción", "Solo vivo en una canción"],
+            ["Nadie busca lo esencial", "Yo solo busco una canción", "Que me encuentre", "Cuando me encuentre solo"],
+            ["Y si no tengo a quién llamar", "Si mi tiempo se durmió", "Cuatro versos y un anhelo", "Me darán valor"],
+            ["Yo quiero estar ahí", "Yo quiero estar así", "Yo quiero estar aquí", "Nada más"],
+            ["Quiero estar ahí", "Quiero estar así", "Yo quiero estar aquí", "Nada más"]
+        ]
+    },
+    "NadaXSentir": {
+        "title": "NADA X SENTIR",
+        "comment": "",
+        "linkPath": "/songs/NadaXSentir",
+        "imgSrc": "./src/assets/img/canciones/NXS.jpeg",
+        "spotify": "https://open.spotify.com/embed/track/0EbEZQ5WcSPk0oHOAXBbnM?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/hF9k59vdBS0?si=MHkg6dh1FnPnDLx-",
+        "lyrics": [
+            ["Una nueva aventura nos espera", "Una nueva vida nos espera", "En las noches sin gloria ni pena", "Dejaremos todo lo que duela"],
+            ["Y partir, descubrir", "No dejar nada por sentir"],
+            ["Avenidas atestadas sin piedad", "Corazones demorados en llegar", "Desafíos hasta en la prosperidad", "Y un sin número de versos que contar"],
+            ["¿Cómo ir, sin huir?", "No dejar sueño sin cumplir"],
+            ["No dejar nada por sentir", "No dejar sueño sin cumplir", "No dejar nada por sentir", "No dejar sueño sin cumplir"]
+        ]
+    },
+    "Nada+Sentir": {
+        "title": "NADA + SENTIR",
+        "comment": "(ft. Vito Baialardo)",
+        "linkPath": "/songs/Nada+Sentir",
+        "imgSrc": "./src/assets/img/canciones/N+S.jpeg",
+        "spotify": "https://open.spotify.com/embed/track/6ETGWt9QWPeJasqnXSJ8Kc?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/Z4QezMaLXng?si=YthZz74VhW-EWgDG",
+        "lyrics": [
+            ["(¡No dejar nada por sentir!)"],
+            ["No dejar nada por sentir", "No dejar sueño sin cumplir", "(x4)"],
+            ["Una nueva aventura nos espera", "Una nueva vida nos espera", "En las noches sin gloria ni pena", "Dejaremos todo lo que duela"],
+            ["Y partir, descubrir", "No dejar nada por sentir"],
+            ["No dejar nada por sentir", "No dejar sueño sin cumplir", "(x3)"],
+            ["¿Cómo ir?"],
+            ["(No dejar nada por sentir)", "(No dejar sueño sin cumplir)", "(No dejar nada por sentir)", "(No dejar sueño sin cumplir)", "(No dejar nada por sentir)"]
+        ]
+    },
+    "Departure": {
+        "title": "Departure",
+        "comment": "",
+        "linkPath": "/songs/Departure",
+        "imgSrc": "./src/assets/img/canciones/Departure.png",
+        "spotify": "https://open.spotify.com/embed/track/4OwP1tdVDtXYXACnUeVSe3?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/KndrwrqpRQY?si=6--FAOmfVz6cmpuz",
+        "lyrics": null
+    },
+    "PostalesSession": {
+        "title": "Postales Session",
+        "comment": "",
+        "linkPath": "/songs/PostalesSession",
+        "imgSrc": "./src/assets/img/canciones/PostalesSession.jpeg",
+        "spotify": "https://open.spotify.com/embed/album/6qoOQgROD9b3PaAxwL8S2U?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/mt4ZFbx7QhQ?si=Vjpe40izjEJlTKMS",
+        "lyrics": [
+            ["Lo llevamos a cabo el 20 de junio de 2024 en Rincón, Santa Fe, en la quinta del productor, Brandon Andino, quien se encargó de la grabación, mezcla y master."],
+            ["Contó con la participación de Candela Louteiro en filmación y aportes de Danilo Mettini en la escenografía."]
+        ]
+    }
+}

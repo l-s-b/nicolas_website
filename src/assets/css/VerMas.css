@@ -1,0 +1,19 @@
+#verMas {
+    border: 2px solid var(--brown);
+    background-color: var(--cream);
+    margin: auto;
+    padding: 1rem;
+    width: 50%;
+    max-width: 12rem;
+    transition: 0.4s;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--brown);
+}
+
+#verMas:hover {
+    border-color: var(--cream);
+    background-color: var(--brown);
+    color: var(--cream);
+}

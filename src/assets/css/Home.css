@@ -1,0 +1,55 @@
+#hello {
+    font-family: var(--kalam);
+    font-size: 17.5vw;
+    font-weight: 200;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5vw;
+    margin-bottom: -1.25rem;
+}
+
+#homeBio { 
+    p { margin-bottom: 1rem; }
+}
+
+#air {
+    height: 35vh;
+    width: 50vw;
+    margin: auto;
+}
+
+.home-socials {
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+#songs img {
+    width: 100%;
+    margin: 1rem auto;
+    box-shadow: 0 0 2rem 0 black;
+}
+
+.songLink {
+    justify-content: space-between;
+    line-height: 1;
+}
+.songLink > span {
+    font-size: 2.5rem;
+    margin-top: -0.5rem;
+}
+.songLink > b { 
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: left;
+}
+.songLinkSub { 
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 400px) {
+    #hello { margin-left: calc(3vw - 1.2rem); }
+}

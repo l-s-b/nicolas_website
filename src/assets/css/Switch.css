@@ -1,0 +1,28 @@
+.switch input { display: none; }
+
+.switch label {
+    box-sizing: border-box;
+    display: block;
+    width: 2.4rem;
+    height: 1.2rem;
+    padding: 1px;
+    border-radius: 0.6rem;
+    border: 2px solid var(--brown);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.switch label::after {
+    content: "";
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 0.5rem;
+    background: var(--brown);
+    transition: 0.3s;
+}
+
+.switch input:checked ~ label::after {
+    translate: 1.2rem 0;
+}
+  

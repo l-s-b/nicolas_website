@@ -1,0 +1,48 @@
+#mobileMenu {
+    position: fixed;
+    background: var(--cream);
+    transition: 0.4s;
+    z-index: 100;
+    padding: 1.5rem;
+    height:100vh;
+    margin: 0;
+    inset: 0;
+    left: 100vw;
+    font-size: 1.25rem;
+}
+
+#mobileMenu ul { gap: 1.5rem; }
+#mobileMenu * { color: var(--brown); }
+#mobileMenu > svg { fill: var(--brownFill); }
+#mobileMenu.active { left: 0; }
+#mobileMenu .bigger { font-size: 2rem; }
+
+#menuX, #menuX:hover, #menuX:active, #menuX:focus {
+    align-self: flex-end;
+    font-size: 2.5rem;
+    font-weight: 100;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+#paddingFix { padding: 0.5rem; }
+
+.menuRow { 
+    justify-content: space-between;
+    align-items: center;
+}
+.menuRowGroup {
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (min-width: 400px) {
+    #mobileMenu { display: none; }
+}
+@media (max-width: 400px) {
+    #mobileMenu { display: flex; }
+}
+
