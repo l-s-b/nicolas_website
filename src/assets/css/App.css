@@ -18,7 +18,7 @@ li { list-style: none; }
 #root {
   margin: 0 auto;
   padding: 2rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 0; /* Padding inferior gestionado por el footer */
   text-align: center;
   font-family: 'Poppins', sans-serif;
   --cream: #f7f7ee;
@@ -30,12 +30,12 @@ li { list-style: none; }
 
 .homeRoot {
   color: var(--white);
-  background: url('../img/fondo-home.png') center -10rem / auto 100vh repeat-y;
+  background: black url('../img/fondo-home.webp') center -10rem / auto 100vh repeat-y;
   position: relative;
 }
 
 .songRoot {
-  background: url('../img/fondo-canciones.png');
+  background: url('../img/fondo-canciones.webp');
   background-size: 100% auto;
   background-repeat: repeat-y;
   color: var(--brown);
@@ -43,7 +43,7 @@ li { list-style: none; }
 }
 
 .postalesRoot {
-  background: url('../img/fondo-postales.jpeg');
+  background: url('../img/fondo-postales.webp');
   background-size: auto 100%;
   background-repeat: repeat-x;
   background-attachment: fixed;
@@ -57,6 +57,8 @@ li { list-style: none; }
 .brownStroke { stroke: var(--brown); }
 .whiteText { color: var(--white); }
 .brownText { color: var(--brown); }
+.whiteBorder { border-color: var(--white); }
+.brownBorder { border-color: var(--brown); }
 .creamBg { background: var(--cream); }
 .whiteBg { background: var(--white); }
 .brownBg { background: var(--brown); }
@@ -92,3 +94,5 @@ li { list-style: none; }
 .justifyText { text-align: justify; }
 .centerText { text-align: center; }
 .allCaps { text-transform: uppercase; }
+
+.pointer { cursor: pointer; }

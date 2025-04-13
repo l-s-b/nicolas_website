@@ -50,6 +50,18 @@
     font-size: 1.25rem;
 }
 
-@media (max-width: 400px) {
+@media (orientation: portrait) {
     #hello { margin-left: calc(3vw - 1.2rem); }
+    .songlist { flex-direction: column; }
+    .songlist a { width: 100%; }
+    #songListFill { display: none; }
+}
+@media (orientation: landscape) {
+    .songlist {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .songlist a { width: 30%; } /* canciones */
 }

@@ -17,3 +17,31 @@
     margin-bottom: 1rem;
 }
 
+@media (orientation: landscape) {
+    #songColumns {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+    }
+    #songColumns #playables {
+        width: 50%;
+        flex-shrink: 1;
+    }
+    #songColumns #lyrics {
+        align-self: flex-start;
+        margin-top: 2rem;
+        width: 50%;
+        p, h2 {
+            width: 20rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h2 { line-height: 1; }
+    }
+}
+
+@media (orientation: portrait) {
+    #songTitle {
+        margin: 1.5rem auto;
+    }  
+}

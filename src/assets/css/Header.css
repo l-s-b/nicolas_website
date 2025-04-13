@@ -1,6 +1,33 @@
 h1 {font-family: var(--kalam); }
 
-.mobileHeader {
+.desktopHeader * {
+    align-self: center;
+}
+.desktopHeader ul {
     display: flex;
-    justify-content: space-between;
+    gap: 4rem;
+}
+.desktopHeader li {
+    text-transform: uppercase;
+}
+
+
+@media (orientation: landscape) {
+    .mobileHeader {
+        display: none;
+    }
+    .desktopHeader {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (orientation: portrait) {
+    .mobileHeader {
+        display: flex;
+        justify-content: space-between;
+    }
+    .desktopHeader {
+        display: none;
+    }
 }

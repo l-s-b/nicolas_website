@@ -1,4 +1,6 @@
 #globalFooter {
+    padding: 2.5rem 0;
+
     h2 {
         font-family: var(--kalam);
         font-size: 3rem;
@@ -17,8 +19,24 @@
     .sitemap {
         font-size: 1.2rem;
         font-weight: 500;
-        padding-top: 2rem;
+        padding: 2rem;
         gap: 1.25rem;
         justify-content: space-between;
     }
+}
+
+.homeRoot #globalFooter {
+    background: url('../img/fondo-home.webp') top left / auto;
+    margin: 0 -2rem;
+}
+
+@media (min-width: 900px) {
+    .homeRoot #globalFooter {
+        background: url('../img/fondo-home.webp') top left / 150%;
+    }
+}
+
+.postalesRoot #globalFooter {
+    background: var(--cream);
+    margin: 0 -2rem;
 }

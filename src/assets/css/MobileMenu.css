@@ -39,10 +39,10 @@
     gap: 1rem;
 }
 
-@media (min-width: 400px) {
+@media (orientation: landscape) {
     #mobileMenu { display: none; }
 }
-@media (max-width: 400px) {
+@media (orientation: portrait) {
     #mobileMenu { display: flex; }
 }
 

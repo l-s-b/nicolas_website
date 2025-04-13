@@ -10,9 +10,13 @@ export default function Songs() {
   const theme = useTheme().theme;
   const { applyRootClass } = useBackground();
   function SongMap () {
-    return Object.entries(songs).map(([key, song]) => {
+    const songList = Object.entries(songs).map(([key, song]) => {
       return <SongLink song={song} textShadow={theme.textShadow} key={key} />
     });
+    return <>
+      {songList}
+      <a id="songListFill"></a>
+    </>
   }
 
   useEffect(() => {
@@ -23,7 +27,7 @@ export default function Songs() {
 
   return (
     <main id="allSongs">
-      <section id="songs" className="flex column">
+      <section id="songs" className="flex songlist">
         <Separator title="Canciones" themeClasses={theme} />
         <SongMap />
       </section>

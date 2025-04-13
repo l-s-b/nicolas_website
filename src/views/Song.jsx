@@ -21,22 +21,28 @@ export default function Song() {
   return (
     <main id="songView">
       <Separator title="Canciones" themeClasses={theme} />
-      <WidgetSpotify url={mySong.spotify} size="large" />
-      <WidgetYouTube url={mySong.youtube} />
-      {mySong.lyrics && (
-        <>
+      <div id="songColumns">
+        <section id="playables">
+          <WidgetSpotify url={mySong.spotify} size="large" />
+          <WidgetYouTube url={mySong.youtube} />
+        </section>
+        <section id="lyrics">
           <h2 id="songTitle" className="allCaps">{mySong.title}</h2>
-          <section id="lyrics">
-            {mySong.lyrics.map((verse, index) => (
-              <p className="flex column" key={`estrofa${index}`}>
-                {verse.map((line, index) => (
-                  <span key={`verso${index}`}>{line}</span>
-                ))}
-              </p>
-            ))}
-          </section>
-        </>
-      )}
+          {mySong.lyrics ? (
+            <>
+              {mySong.lyrics.map((verse, index) => (
+                <p className="flex column" key={`estrofa${index}`}>
+                  {verse.map((line, index) => (
+                    <span key={`verso${index}`}>{line}</span>
+                  ))}
+                </p>
+              ))}
+            </>
+          ) : (
+            <i>No hay letras para esta canción.</i>
+          )}
+        </section>
+      </div>
     </main>
   );
 }

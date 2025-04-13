@@ -7,9 +7,10 @@
     height: 1.2rem;
     padding: 1px;
     border-radius: 0.6rem;
-    border: 2px solid var(--brown);
+    border: 2px solid;
     cursor: pointer;
     transition: 0.3s;
+    background: none;
 }
 
 .switch label::after {
@@ -18,8 +19,21 @@
     width: 0.8rem;
     height: 0.8rem;
     border-radius: 0.5rem;
-    background: var(--brown);
     transition: 0.3s;
+}
+
+.switch label.brownSwitch {
+    border-color: var(--brown);
+    &::after {
+        background: var(--brown);
+    }
+}
+
+.switch label.whiteSwitch {
+    border-color: var(--white);
+    &::after {
+        background: var(--white);
+    }
 }
 
 .switch input:checked ~ label::after {

@@ -6,11 +6,15 @@ import HomeIcon from "../assets/vector/HomeIcon";
 import PostalesIcon from "../assets/vector/PostalesIcon";
 import TiendaIcon from "../assets/vector/TiendaIcon";
 import '../assets/css/MobileMenu.css';
+import MUI_Dialog from "./MUI_Dialog";
 
 export default function MobileMenu() {
     const BROWN_THEME = {
         fill: "brownFill",
-        stroke: "brownStroke"
+        stroke: "brownStroke",
+        border: "brownBorder",
+        bg: "brownBg",
+        switch: "brownSwitch"
     }
 
   return (
@@ -28,7 +32,7 @@ export default function MobileMenu() {
                     </Link>
                 </li>
                 <li>
-                    <Link onClick={toggleMenu} className="flex menuRow" to="/postales">
+                    <Link onClick={toggleMenu} className="flex menuRow" to="/postalesTour">
                         <div className="flex menuRowGroup">
                             <PostalesIcon size="3rem" themeClass={BROWN_THEME.fill} />
                             Postales Tour
@@ -37,17 +41,19 @@ export default function MobileMenu() {
                     </Link>
                 </li>
                 <li>
-                    <Link onClick={toggleMenu} className="flex menuRow" to="/tienda">
+                    <MUI_Dialog titleText="¡Próximamente!">
+                    <div onClick={toggleMenu} className="flex menuRow">
                         <div className="flex menuRowGroup">
                             <TiendaIcon size="3rem" themeClass={BROWN_THEME.stroke} />
                             Tienda
                         </div>
                         <span className="bigger">&gt;</span>
-                    </Link>
+                        </div>
+                    </MUI_Dialog>
                 </li>
                 <li>
                     <div className="flex menuRowGroup" id="paddingFix">
-                        <Switch />
+                        <Switch switchClass={BROWN_THEME.switch}/>
                         <span>ES/EN</span>
                     </div>
                 </li>

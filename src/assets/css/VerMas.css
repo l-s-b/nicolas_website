@@ -1,12 +1,14 @@
 #verMas {
+    display: flex;
+    justify-content: center;
     border: 2px solid var(--brown);
     background-color: var(--cream);
-    margin: auto;
-    padding: 1rem;
-    width: 50%;
-    max-width: 12rem;
+    margin: 2rem auto;
+    padding: 0.8rem;
+    width: 40%;
+    max-width: 10rem;
     transition: 0.4s;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.15rem;
     font-weight: 500;
     font-size: 1.2rem;
     color: var(--brown);

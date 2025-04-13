@@ -9,14 +9,16 @@ export default function useTheme() {
             text: "whiteText",
             stroke: "whiteStroke",
             bg: "whiteBg",
-            textShadow: "whiteTextShadow"
+            textShadow: "whiteTextShadow",
+            switch: "whiteSwitch"
         } ) : (
         {
             fill: "brownFill",
             text: "brownText",
             stroke: "brownStroke",
             bg: "brownBg",
-            textShadow: "brownTextShadow"
+            textShadow: "brownTextShadow",
+            switch: "brownSwitch"
         }
     )
 
