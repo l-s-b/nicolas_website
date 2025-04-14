@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../assets/css/Newsletter.css';
+import '../assets/css/home/Newsletter.css';
 import MUI_Dialog from "./MUI_Dialog";
 import jsonp from "jsonp";
 
