@@ -1,11 +1,54 @@
 {
+    "CorazonViajero": {
+        "title": "Corazón Viajero",
+        "comment": "",
+        "linkPath": "/songs/CorazonViajero",
+        "imgSrc": "./img/canciones/Corazon.webp",
+        "spotify": "https://open.spotify.com/embed/track/5fBeQRsp69tAXUY8b7A8JS?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/U5KIKBOFTvE?si=7hBaJ2fhbWvHTJT-",
+        "lyrics": [
+            ["Libertad", "Romper los lazos con la sociedad", "Ganarle al miedo en la soledad del camino"],
+            ["La ciudad", "Su estructura voy dejando atrás", "A cada paso, mi realidad se transforma"],
+            ["Natural", "Desde hoy viviremos sin parar", "El mundo entero es ahora", "Mi lugar, mi hogar"],
+            ["Recorriendo un mundo nuevo", "Sin planes pero sin miedo", "Agua de río bendiciendo el sendero", "De mi corazón viajero"],
+            ["Despertar", "La luz de la mañana anuncia mi verdad", "Cruzando el cielo y cantando van"],
+            ["Al viajar", "Desde la ruta se ven en el mar", "Las luces que pronto me llevarán", "Por donde puedo"],
+            ["Respirar", "Las montañas se ven distinto desde acá", "Trepando ya olvidé Que hay que bajar", "Acampemos acá"],
+            ["Y la Luna nos acompañará"],
+            ["Recorriendo un mundo nuevo", "Sin planes pero sin miedo", "Agua de río bendiciendo los esteros", "De mi corazón viajero"],
+            ["Puedo ver", "En el silencio habita el saber", "Soy heredero de lo que sembré", "En mí"],
+            ["Y las estrellas nos guiarán", "Recorriendo un mundo nuevo", "Sin planes pero sin miedo", "Agua de río bendiciendo el sendero"],
+            ["Recorriendo un mundo nuevo", "Sin planes pero sin miedo", "Agua de río bendiciendo mi sendero"],
+            ["Recorriendo un mundo nuevo", "Bendiciendo mi sendero", "Recorriendo un mundo nuevo", "Bendiciendo mi sendero"],
+            ["Recorriendo un mundo nuevo."]
+        ]
+    },
+    "Fugitivo": {
+        "title": "Fugitivo",
+        "comment": "",
+        "linkPath": "/songs/Fugitivo",
+        "imgSrc": "./img/canciones/Fugitivo.webp",
+        "spotify": "https://open.spotify.com/embed/track/5ot4BLqTWnudoGi30TmIDQ?utm_source=generator",
+        "youtube": "https://www.youtube.com/embed/KLQrHCHG8EQ?si=vT4pkiq59Ns4SN1u",
+        "lyrics": [
+            ["Sé que no es momento de hablar algunas cosas", "Pero no podía evitar", "Pensarme fugitivo al viento", "Y dejarlo madurar"],
+            ["Tengo las rosas, guardo el mantel", "Pongo tu recuerdo donde lo encontré"],
+            ["Y me voy de estación", "Ya no insisto donde no soy", "Si cambió (uh)", "¿Qué gano con lo perdido?"],
+            ["Si no creo estar perdiéndome de nada", "Que valga la pena encontrar.", "Tampoco es descreer de lo vivido", "Es lo vivido, siempre cambiará"],
+            ["Siento este peso de no caer", "Pero un rumbo incierto espero resolver"],
+            ["Y es sin vos, es sin vos", "El principio del adiós", "Donde voy, (uh)", "Donde voy no lo preciso."],
+            ["Donde voy no lo preciso (x2)"],
+            ["Puede ser momento de hablar de aquellas cosas", "Que no podía... evitar"]
+        ]
+    },
     "Ciruelas": {
-        "title": "Ciruelas",
+        "title": "ciruelas",
         "comment": "",
         "linkPath": "/songs/Ciruelas",
         "imgSrc": "./img/canciones/Ciruelas.webp",
         "spotify": "https://open.spotify.com/embed/album/02HJHU6nsMQmJEKQlTzom4?utm_source=generator",
         "youtube": "https://www.youtube.com/embed/xbd-0-9VFYE?si=v9pCNOxWbFp_Bn96",
+        "youtube2": "https://www.youtube.com/embed/7zxFJJ982tc?si=Xgu28N0MdU4tZBk0",
         "lyrics": [
             ["La casa deshabitada", "Tu ropa limpia, como nueva", "Casi sin usar"],
             ["No quisiera olvidar cómo fue", "Oírte cantar", "Por primera vez"],

@@ -24,6 +24,7 @@ export default function Song() {
       <div id="songColumns">
         <section id="playables">
           <WidgetSpotify url={mySong.spotify} size="large" />
+          {mySong.youtube2 && <WidgetYouTube url={mySong.youtube2} />}
           <WidgetYouTube url={mySong.youtube} />
         </section>
         <section id="lyrics">

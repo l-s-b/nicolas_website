@@ -7,6 +7,7 @@ import Home from './views/Home'
 import Song from './views/Song'
 import NotFound from './views/NotFound'
 import Songs from './views/Songs'
+import Store from './views/Store'
 import PostalesTour from './views/PostalesTour'
 import UseTitle from './hooks/useTitle'
 import UseScroll from './hooks/useScroll'
@@ -20,6 +21,7 @@ export default function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home bg="home" />} />
+          <Route path="/tienda" element={<Store />} />
           <Route path="/postalesTour" element={<PostalesTour />} />
           <Route path="/songs/:name" element={<Song bg="song" />} />
           <Route path="/songs" element={<Songs />} />

@@ -1,0 +1,34 @@
+body {
+    background-image: url("https://www.creativefabrica.com/wp-content/uploads/2023/03/11/Old-Grunge-Vintage-Paper-Letter-Distressed-OldWorld-Ink-Scrapbook-Paper-63918075-1.png") !important;
+    background-attachment: fixed;
+}
+
+.uk-section-block, .uk-section-block--half {
+    background: rgba(250,250,200,0.5) !important;
+}
+
+.block-purchase-info {
+    background: rgba(250,250,200,0.7) !important;
+}
+
+.footer__top {
+    background: rgba(250,250,200,0.5) !important;
+}
+
+.product-vip {
+    background: rgba(250,250,200,0.8) !important;
+}
+
+.desktop-list__item {
+    font-family: 'Playfair Display' !important;
+}
+
+.products-feed__product-price, .block-products-feed__product-price {
+    font-family: 'Poppins' !important;
+    font-weight: 800 !important;
+    font-size: 1.25rem !important;
+}
+.text--primary > del {
+    color: maroon;
+    font-size: 1.25rem !important;
+}

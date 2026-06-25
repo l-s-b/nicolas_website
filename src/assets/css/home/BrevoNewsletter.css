@@ -1,0 +1,319 @@
+body {
+    --almostBlack: #20252d;
+    --darkGrey: #3E4858;
+}
+
+/* General container styling */
+.brevo-form-container-wrapper {
+  text-align: center;
+}
+
+/* Error and Success Message Panels */
+#error-message,
+#success-message {
+  display: none; /* Hidden by default, toggled by React state */
+  font-size: 16px;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  border-radius: 3px;
+  max-width: 540px;
+  padding: 10px;
+  margin: 0 auto 10px; /* Center and add some margin */
+}
+
+#error-message.active,
+#success-message.active {
+  display: block; /* Show when active */
+}
+
+#error-message {
+  color: #661d1d;
+  background-color: #ffeded;
+  border: 1px solid #ff4949;
+}
+
+#success-message {
+  color: #085229;
+  background-color: #e7faf0;
+  border: 1px solid #13ce66;
+}
+
+#error-message > div,
+#success-message > div {
+  display: flex;
+  align-items: center;
+}
+
+#error-message svg,
+#success-message svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+/* Main Form Container */
+#sib-container {
+  text-align: center;
+  font-family: Roboto, Helvetica, sans-serif;
+  background-color: rgba(255, 255, 255, 0.52);
+  max-width: 640px;
+  border-radius: 8px;
+  border: none;
+  direction: ltr;
+  padding: 20px;
+  margin: 0 auto; /* Center the form */
+}
+
+/* Shared padding for form blocks */
+.form-padding-block {
+  padding: 8px 0;
+}
+
+/* Form Title/Description */
+.form-title-block {
+  font-size: 20px;
+  text-align: left;
+  font-weight: 700;
+  color: var(--darkGrey);
+  background-color: transparent;
+}
+
+/* Input Fields */
+.form-input-field-wrapper {
+  position: relative;
+}
+
+#sib-form input[type="text"],
+#sib-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #c0ccda;
+  border-radius: 3px;
+  font-family: Helvetica, sans-serif; /* For placeholder fallback */
+  color: var(--darkGrey);
+  font-size: 16px;
+}
+
+/* Placeholder styling (re-added based on original inline) */
+#sib-form input::placeholder {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  color: #c0ccda;
+}
+
+/* Form Labels (Error and Specification) */
+.form-error-label {
+  display: none; /* Hidden by default, Brevo's JS would toggle */
+  font-size: 16px;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  color: #661d1d;
+  background-color: #ffeded;
+  border-radius: 3px;
+  border-color: #ff4949;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.form-specification-label {
+  font-size: 12px;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  color: #8390A4;
+  margin-top: 5px;
+  display: block;
+}
+
+/* Checkbox */
+.form-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.form-checkbox-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#sib-form input[type="checkbox"] {
+  margin-right: 8px; /* Basic spacing */
+  /* You'll likely need to style the checkbox visually using Brevo's sib-styles.css or custom CSS */
+}
+
+.form-checkbox-label span p {
+  font-size: 14px;
+  color: var(--darkGrey);
+  background-color: transparent;
+  margin: 0; /* Remove default paragraph margin */
+}
+
+/* Declaration Block */
+.form-declaration-block {
+  direction: ltr;
+}
+
+.form-declaration-content {
+  display: flex;
+  align-items: center;
+}
+
+.declaration-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.declaration-text-block {
+  font-size: 14px;
+  text-align: left;
+  color: #687484;
+  background-color: transparent;
+}
+
+.declaration-text-block a {
+  text-decoration: underline;
+  color: #2BB2FC;
+}
+
+/* Submit Button */
+.form-submit-button-wrapper {
+  text-align: left;
+}
+
+#sib-form button[type="submit"] {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: var(--darkGrey);
+  border-radius: 3px;
+  border-width: 0px;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+#sib-form button[type="submit"]:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.button-icon,
+.button-icon-spinner {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+/* Spinner Animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.button-icon-spinner {
+  animation: spin 1s linear infinite;
+}
+
+/* Hidden Input */
+.hidden-input {
+  display: none;
+}
+/*//////////////////////////////////////////////*/
+
+#custom-sib-emailcheck { display: none; }
+
+#sib-disclaimer {
+    font-size: 14px;
+    text-align: left;
+    color: var(--darkGrey);
+    background-color: transparent;
+}
+
+#sib-disclaimer a {
+    text-decoration: underline;
+    color: #0067c7;
+}
+
+#sib-opt-in {
+  padding: 8px 0;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+}
+
+#sib-opt-in span {
+    font-size: '14px';
+    color: var(--almostBlack);
+    background-color: transparent;
+}
+
+#sib-hidden-nombre {
+    display: none;
+    font-size: 16px;
+    text-align: left;
+    background-color: #ffeded;
+    border-radius: 3px;
+    border-color: #ff4949;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#sib-nombre-comment, #sib-email-comment {
+    font-size: 12px;
+    text-align: left;
+    color: var(--almostBlack);
+    margin-top: 5px;
+    display: block;
+}
+
+#sib-form h2 {
+    padding: .5rem 0;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    color: var(--almostBlack);
+    background-color: 'transparent';
+}
+
+#sib-submit-button {
+    padding: 0.5rem 0;
+    text-align: left;
+}
+
+#brevo-check-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: .5rem;
+  flex-shrink: 0
+}
+
+#sib-disclaimer-container {
+  display: flex;
+  padding: .5rem 0;
+  align-items: center;
+}
+
+.sib-error-label {
+  display: none;
+  font-size: 1rem;
+  text-align: left;
+  color: #661d1d;
+  background: '#ffeded';
+  border: 3px solid#ff4949;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.sib-input-container {
+  position: relative;
+  padding: .5rem 0;
+} 

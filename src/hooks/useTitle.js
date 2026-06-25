@@ -7,9 +7,9 @@ export default function UseTitle({defaultTitle = "N I C O L Á S"}) {
     useEffect(() => {
         const titles = {
             "/": "",
+            "/tienda": "Tienda | ",
             "/postalesTour": "Postales Tour | ",
             "/songs": "Canciones | ",
-            "/superSecretNewsletterPage": "SECRET! Newsletter | ",
             "/404": "404 | "
         };
         let prefix = titles[location.pathname];

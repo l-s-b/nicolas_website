@@ -3,6 +3,7 @@ import { useEffect } from "react";
 /* import useTheme from "../hooks/useTheme"; */
 import portadaPostales from "../assets/img/portada-postales.webp";
 import { WidgetSpotify, WidgetYouTube } from "../components/SongWidgets";
+import FlipBook from "../components/FLipbook";
 
 export default function PostalesTour() {
   /* const theme = useTheme().theme; */
@@ -19,6 +20,7 @@ export default function PostalesTour() {
   return (
     <main>
       <img src={portadaPostales} alt="POSTALES TOUR" />
+      {/* <FlipBook /> */}
       <WidgetSpotify url={postalesSpotifyURL} size="large" />
       <WidgetYouTube url={postalesYoutubeURL} />
     </main>

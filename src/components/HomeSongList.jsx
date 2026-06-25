@@ -10,10 +10,11 @@ const theme = useTheme().theme;
     <section id="songs">
         <Separator title="Canciones" themeClasses={theme} />
         <div className="flex songlist">
+          <SongLink song={songs.CorazonViajero} textShadow={theme.textShadow} />
+          <SongLink song={songs.Fugitivo} textShadow={theme.textShadow} />
           <SongLink song={songs.Ciruelas} textShadow={theme.textShadow} />
           <SongLink song={songs.DondeFlorezco} textShadow={theme.textShadow} />
           <SongLink song={songs.RegaloAcustico} textShadow={theme.textShadow} />
-          <SongLink song={songs.VivoEnUnaCancion} textShadow={theme.textShadow} />
           <SongLink song={songs.NadaXSentir} textShadow={theme.textShadow} />
           <a id="songListFill"></a>
         </div>
