@@ -5,9 +5,11 @@ import { useEffect } from "react";
 import Separator from "../components/Separator";
 import useTheme from "../hooks/useTheme";
 import SongLink from "../components/SongLink";
+import { useLanguage } from "../context/LanguageProvider";
 
 export default function Songs() {
   const theme = useTheme().theme;
+  const { t } = useLanguage();
   const { applyRootClass } = useBackground();
   function SongMap () {
     const songList = Object.entries(songs).map(([key, song]) => {
@@ -28,7 +30,7 @@ export default function Songs() {
   return (
     <main id="allSongs">
       <section id="songs" className="flex songlist">
-        <Separator title="Canciones" themeClasses={theme} />
+        <Separator title={t("songs.title")} themeClasses={theme} />
         <SongMap />
       </section>
     </main>

@@ -1,0 +1,39 @@
+{
+  "nav.home": "Home",
+  "nav.postales": "Postales Tour",
+  "nav.store": "Store",
+  "nav.comingSoon": "Coming soon!",
+
+  "hero.bio1": "I'm an Argentine artist connected to multiple disciplines, where music holds an essential place — condensing my emotions and longings into songs.",
+  "hero.bio2": "I walk between pop choruses and alternative soundscapes. I invite you to be part of this journey.",
+
+  "songs.title": "Songs",
+  "songs.seeMore": "See more",
+  "songs.noLyrics": "No lyrics available for this song.",
+
+  "newsletter.heading": "Subscribe to the nickiletters and get all the latest news :)",
+  "newsletter.namePlaceholder": "NAME",
+  "newsletter.nameHint": "What should I call you?",
+  "newsletter.emailHint": "No spam, one email per week, you can unsubscribe anytime.",
+  "newsletter.optIn": "I accept the terms and agree to receive the newsletters.",
+  "newsletter.error": "Your subscription could not be validated :(",
+  "newsletter.success": "Done! Check your inbox :) Don't forget to look in Spam and other folders!",
+  "newsletter.submitting": "Sending...",
+  "newsletter.submit": "GO",
+  "newsletter.disclaimer": "We use Brevo as our marketing platform. By submitting this form, you acknowledge that the personal data you provided will be transferred to Brevo for processing, in accordance with",
+  "newsletter.privacyLink": "Brevo's Privacy Policy.",
+
+  "title.store": "Store | ",
+  "title.postales": "Postales Tour | ",
+  "title.songs": "Songs | ",
+  "title.song": "Song | ",
+  "title.404": "404 | ",
+
+  "notFound.text": "Page not found",
+
+  "flipbook.cover": "Visitor book cover",
+  "flipbook.backCover": "Visitor book back cover",
+  "flipbook.page": "Page {index} of the visitor book",
+
+  "lang.label": "ES/EN"
+}

@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "../assets/css/home/BrevoNewsletter.css";
+import { useLanguage } from "../context/LanguageProvider";
 
 const BrevoNewsletter = () => {
+  const { t } = useLanguage();
   const SIGNUP_POST_URL =
     "https://sibforms.com/serve/MUIFAEenRmwqTUjhdGON0s2X5-CCe4-DZ0Z1Ud2v5luZZAsOE6ZYsV33FlWqQce3AO1-82Utv_4d0F_-HEj-SaUxsxxsY_lZNJBtSHGGgcQpMM_lQLG70TQUlEtOS-rjNKBP5-ej5NIWO8Ku-ZJ3qz6qiSGGvMLNLpkPFJZOvPuVn80FcQoc1g3I4xfxLyWsHLTubNzvxIPvIhPO";
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
@@ -59,7 +61,7 @@ const BrevoNewsletter = () => {
         >
           <path d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z" />
         </svg>
-        <span>No se pudo validar tu suscripción :(</span>
+        <span>{t("newsletter.error")}</span>
       </div>
 
       {/* Success Message Panel - Visibility controlled by React state */}
@@ -73,7 +75,7 @@ const BrevoNewsletter = () => {
         <svg viewBox="0 0 512 512">
           <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z" />
         </svg>
-        <span>Listo! Chequeá tu correo :) Revisá Spam y demás carpetas! </span>
+        <span>{t("newsletter.success")}</span>
       </div>
 
       {/* Main Form Container */}
@@ -85,7 +87,7 @@ const BrevoNewsletter = () => {
           onSubmit={handleSubmit}
         >
           <h2>
-            Suscribite a las nickiletters para recibir todas las novedades :)
+            {t("newsletter.heading")}
           </h2>
 
           {/* Name Field */}
@@ -98,14 +100,14 @@ const BrevoNewsletter = () => {
               id="NOMBRE"
               name="NOMBRE"
               autoComplete="off"
-              placeholder="NOMBRE"
+              placeholder={t("newsletter.namePlaceholder")}
               data-required="true"
               required
             />
             {/* Error label for NAME - Managed by Brevo's JS or can be custom handled */}
             <label htmlFor="NOMBRE" id="sib-hidden-nombre"></label>
             <label htmlFor="NOMBRE" id="sib-nombre-comment">
-              ¿Cómo preferís que te llame?
+              {t("newsletter.nameHint")}
             </label>
           </div>
 
@@ -124,7 +126,7 @@ const BrevoNewsletter = () => {
             />
             <label htmlFor="EMAIL" className="sib-error-label"></label>
             <label htmlFor="EMAIL" id="sib-email-comment">
-              No spam, un mail semanal, podés darte de baja cuando quieras.
+              {t("newsletter.emailHint")}
             </label>
           </div>
 
@@ -137,7 +139,7 @@ const BrevoNewsletter = () => {
               name="OPT_IN"
               required
             />
-            <span>Acepto las condiciones y recibir las newsletters.</span>
+            <span>{t("newsletter.optIn")}</span>
           </label>
           {/* Error label for OPT_IN - Managed by Brevo's JS or can be custom handled */}
           <label className="sib-error-label" htmlFor="OPT_IN"></label>
@@ -164,16 +166,13 @@ const BrevoNewsletter = () => {
             </svg>
             <div id="sib-disclaimer">
               <p>
-                Usamos Brevo como plataforma de marketing. Al enviar este
-                formulario, aceptás que los datos personales que proporcionaste
-                se transferirán a Brevo para su procesamiento, siempre de
-                acuerdo con{" "}
+                {t("newsletter.disclaimer")}{" "}
                 <a
                   href="https://www.brevo.com/es/legal/privacypolicy/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  la Política de privacidad de Brevo.
+                  {t("newsletter.privacyLink")}
                 </a>
               </p>
             </div>
@@ -188,7 +187,7 @@ const BrevoNewsletter = () => {
                   <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
                 </svg>
               )}
-              {isSubmitting ? "Enviando..." : "YENDO"}
+              {isSubmitting ? t("newsletter.submitting") : t("newsletter.submit")}
             </button>
           </div>
 

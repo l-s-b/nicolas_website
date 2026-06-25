@@ -1,6 +1,8 @@
 import HTMLFlipBook from 'react-pageflip';
 import '../assets/css/Flipbook.css';
+import { useLanguage } from '../context/LanguageProvider';
 export default function FlipBook(props) {
+    const { t } = useLanguage();
     let myHeight = window.innerHeight;
     let myWidth = window.innerWidth;
     const images = Array.from({ length: 44 }, (_, i) => i);
@@ -13,7 +15,7 @@ export default function FlipBook(props) {
             width={myWidth * 0.4}
             minWidth={myWidth * 0.25}
             maxWidth={myWidth * 0.45}
-            size="fixed"    
+            size="fixed"
             drawShadow={true}
             showCover={true}
             mobileScrollSupport={true}
@@ -23,9 +25,9 @@ export default function FlipBook(props) {
                     key={index}
                     src={`/img/libroVisitas/visitas${index}.jpg`}
                     alt={
-                        index === 0 ? "Tapa del libro de visitas"
-                        : index === images.length-1 ? "Contratapa del libro de visitas"
-                        : `Página ${index} del libro de visitas`
+                        index === 0 ? t("flipbook.cover")
+                        : index === images.length-1 ? t("flipbook.backCover")
+                        : t("flipbook.page", { index })
                     }
                     className="max-w-full h-auto rounded-lg shadow-lg"
                 />

@@ -4,9 +4,11 @@ import "slick-carousel/slick/slick-theme.css";
 import "../assets/css/home/HomePostales.css";
 import Separator from "./Separator";
 import useTheme from "../hooks/useTheme";
+import { useLanguage } from "../context/LanguageProvider";
 
 function HomePostales() {
   const theme = useTheme().theme;
+  const { t } = useLanguage();
   var settings = {
     centerMode: true,
     dots: false,
@@ -37,7 +39,7 @@ function HomePostales() {
 
   return (
     <section id="postalesSlideshow">
-        <Separator title="Postales Tour" themeClasses={theme} />
+        <Separator title={t("nav.postales")} themeClasses={theme} />
         <div className="slider-container">
         <Slider {...settings}>
             {imagePaths.map((image, index) => (

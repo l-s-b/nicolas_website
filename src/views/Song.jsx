@@ -6,9 +6,11 @@ import { useBackground } from "../context/BackgroundProvider";
 import { useEffect } from "react";
 import Separator from "../components/Separator";
 import useTheme from "../hooks/useTheme";
+import { useLanguage } from "../context/LanguageProvider";
 
 export default function Song() {
   const theme = useTheme().theme;
+  const { t } = useLanguage();
   const mySong = songs[useParams().name];
   const { applyRootClass } = useBackground();
 
@@ -20,7 +22,7 @@ export default function Song() {
 
   return (
     <main id="songView">
-      <Separator title="Canciones" themeClasses={theme} />
+      <Separator title={t("songs.title")} themeClasses={theme} />
       <div id="songColumns">
         <section id="playables">
           <WidgetSpotify url={mySong.spotify} size="large" />
@@ -40,7 +42,7 @@ export default function Song() {
               ))}
             </>
           ) : (
-            <i>No hay letras para esta canción.</i>
+            <i>{t("songs.noLyrics")}</i>
           )}
         </section>
       </div>

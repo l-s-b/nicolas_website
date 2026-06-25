@@ -7,8 +7,10 @@ import PostalesIcon from "../assets/vector/PostalesIcon";
 import TiendaIcon from "../assets/vector/TiendaIcon";
 import '../assets/css/MobileMenu.css';
 import MUI_Dialog from "./MUI_Dialog";
+import { useLanguage } from "../context/LanguageProvider";
 
 export default function MobileMenu() {
+    const { t } = useLanguage();
     const BROWN_THEME = {
         fill: "brownFill",
         stroke: "brownStroke",
@@ -26,7 +28,7 @@ export default function MobileMenu() {
                     <Link onClick={toggleMenu} className="flex menuRow" to="/">
                         <div className="flex menuRowGroup">
                             <HomeIcon size="3rem" themeClass={BROWN_THEME.fill} />
-                            Inicio
+                            {t("nav.home")}
                         </div>
                         <span className="bigger">&gt;</span>
                     </Link>
@@ -35,17 +37,17 @@ export default function MobileMenu() {
                     <Link onClick={toggleMenu} className="flex menuRow" to="/postalesTour">
                         <div className="flex menuRowGroup">
                             <PostalesIcon size="3rem" themeClass={BROWN_THEME.fill} />
-                            Postales Tour
+                            {t("nav.postales")}
                         </div>
                         <span className="bigger">&gt;</span>
                     </Link>
                 </li>
                 <li>
-                    <MUI_Dialog titleText="¡Próximamente!">
+                    <MUI_Dialog titleText={t("nav.comingSoon")}>
                     <div onClick={toggleMenu} className="flex menuRow">
                         <div className="flex menuRowGroup">
                             <TiendaIcon size="3rem" themeClass={BROWN_THEME.stroke} />
-                            Tienda
+                            {t("nav.store")}
                         </div>
                         <span className="bigger">&gt;</span>
                         </div>
@@ -54,7 +56,7 @@ export default function MobileMenu() {
                 <li>
                     <div className="flex menuRowGroup" id="paddingFix">
                         <Switch switchClass={BROWN_THEME.switch}/>
-                        <span>ES/EN</span>
+                        <span>{t("lang.label")}</span>
                     </div>
                 </li>
             </ul>

@@ -5,11 +5,13 @@ import useTheme from "../hooks/useTheme"
 import { Link } from "react-router-dom";
 import Switch from "./Switch";
 import MUI_Dialog from "./MUI_Dialog";
+import { useLanguage } from "../context/LanguageProvider";
 
 export default function Header() {
   const hook = useTheme();
   const theme = hook.theme;
   const isHome = hook.isHome;
+  const { t } = useLanguage();
   return (
     <>
       {/* MOBILE */}
@@ -27,14 +29,14 @@ export default function Header() {
         </Link>
         <nav>
           <ul>
-            <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/postalesTour">Postales Tour</Link></li>
-            <li><MUI_Dialog titleText="¡Próximamente!">Tienda</MUI_Dialog></li>
+            <li><Link to="/">{t("nav.home")}</Link></li>
+            <li><Link to="/postalesTour">{t("nav.postales")}</Link></li>
+            <li><MUI_Dialog titleText={t("nav.comingSoon")}>{t("nav.store")}</MUI_Dialog></li>
           </ul>
         </nav>
         <div className="flex menuRowGroup" id="paddingFix">
           <Switch switchClass={theme.switch}/>
-          <span>ES/EN</span>
+          <span>{t("lang.label")}</span>
         </div>
       </header>
     </>

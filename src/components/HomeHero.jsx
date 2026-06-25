@@ -4,13 +4,14 @@ import YTLogo from "../assets/vector/YTLogo";
 import ExternalLink from "./ExternalLink";
 import { ig, sp, yt } from '../utils/socials.json';
 import useTheme from '../hooks/useTheme';
+import { useLanguage } from '../context/LanguageProvider';
 
 export default function HomeHero() {
     const theme = useTheme().theme;
+    const { t } = useLanguage();
     const bio = [
-        "Soy un artista argentino conectado con varias disciplinas, donde la música ocupa un lugar esencial condensando mis emociones y anhelos en forma de canciones.",
-        /* "Lírica sensible, mente soñadora y corazón intenso.", */
-        "Camino entre los estribillos pop y los paisajes sonoros alternativos. Te invito a ser parte de este viaje."
+        t("hero.bio1"),
+        t("hero.bio2")
     ]
   return (
     <section id="hero">

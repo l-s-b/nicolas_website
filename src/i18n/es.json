@@ -1,0 +1,39 @@
+{
+  "nav.home": "Inicio",
+  "nav.postales": "Postales Tour",
+  "nav.store": "Tienda",
+  "nav.comingSoon": "¡Próximamente!",
+
+  "hero.bio1": "Soy un artista argentino conectado con varias disciplinas, donde la música ocupa un lugar esencial condensando mis emociones y anhelos en forma de canciones.",
+  "hero.bio2": "Camino entre los estribillos pop y los paisajes sonoros alternativos. Te invito a ser parte de este viaje.",
+
+  "songs.title": "Canciones",
+  "songs.seeMore": "Ver más",
+  "songs.noLyrics": "No hay letras para esta canción.",
+
+  "newsletter.heading": "Suscribite a las nickiletters para recibir todas las novedades :)",
+  "newsletter.namePlaceholder": "NOMBRE",
+  "newsletter.nameHint": "¿Cómo preferís que te llame?",
+  "newsletter.emailHint": "No spam, un mail semanal, podés darte de baja cuando quieras.",
+  "newsletter.optIn": "Acepto las condiciones y recibir las newsletters.",
+  "newsletter.error": "No se pudo validar tu suscripción :(",
+  "newsletter.success": "Listo! Chequeá tu correo :) Revisá Spam y demás carpetas!",
+  "newsletter.submitting": "Enviando...",
+  "newsletter.submit": "YENDO",
+  "newsletter.disclaimer": "Usamos Brevo como plataforma de marketing. Al enviar este formulario, aceptás que los datos personales que proporcionaste se transferirán a Brevo para su procesamiento, siempre de acuerdo con",
+  "newsletter.privacyLink": "la Política de privacidad de Brevo.",
+
+  "title.store": "Tienda | ",
+  "title.postales": "Postales Tour | ",
+  "title.songs": "Canciones | ",
+  "title.song": "Canción | ",
+  "title.404": "404 | ",
+
+  "notFound.text": "Página no encontrada",
+
+  "flipbook.cover": "Tapa del libro de visitas",
+  "flipbook.backCover": "Contratapa del libro de visitas",
+  "flipbook.page": "Página {index} del libro de visitas",
+
+  "lang.label": "ES/EN"
+}

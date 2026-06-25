@@ -3,12 +3,14 @@ import SongLink from "./SongLink";
 import VerMas from "./VerMas";
 import songs from '../utils/songs.json';
 import useTheme from '../hooks/useTheme';
+import { useLanguage } from '../context/LanguageProvider';
 
 export default function HomeSongList() {
 const theme = useTheme().theme;
+const { t } = useLanguage();
   return (
     <section id="songs">
-        <Separator title="Canciones" themeClasses={theme} />
+        <Separator title={t("songs.title")} themeClasses={theme} />
         <div className="flex songlist">
           <SongLink song={songs.CorazonViajero} textShadow={theme.textShadow} />
           <SongLink song={songs.Fugitivo} textShadow={theme.textShadow} />
